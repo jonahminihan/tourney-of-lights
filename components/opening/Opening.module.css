@@ -1,0 +1,97 @@
+.text {
+    font-size: 150px;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+.welcome {
+    animation-name: welcome;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.tothe {
+    animation-delay: 2s;
+    animation-name: welcome;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.tourney {
+    animation-delay: 4s;
+    animation-name: tourneyFrames;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.starsCont {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    animation-delay: 6s;
+    animation-name: fadeIn;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes welcome {
+    0%   {
+        opacity: 0;
+        transform: scale(80%) translateY(50px);
+    }
+    75%  {
+        opacity: 1;
+        transform: scale(100%) translateY(0px);
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes tourneyFrames {
+    0%   {
+        opacity: 0;
+        transform: scale(80%) translateY(50px);
+    }
+    75%  {
+        opacity: 1;
+        transform: scale(100%) translateY(0px);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* @keyframes tothetext {
+    0%   {
+        opacity: 0;
+        transform: scale(80%) translateY(50px);
+    }
+    75%  {
+        opacity: 1;
+        transform: scale(100%) translateY(0px);
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes tourney {
+    0%   {
+        opacity: 0;
+        transform: scale(80%) translateY(50px);
+    }
+    75%  {
+        opacity: 1;
+        transform: scale(100%) translateY(0px);
+    }
+    100% {
+        opacity: 0;
+    }
+} */
