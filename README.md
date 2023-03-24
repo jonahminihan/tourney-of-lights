@@ -1,3 +1,11 @@
+Hi, this is the repo for the Tournament of Lights. The Tournament of lights is a [Next.js](https://nextjs.org/) app that lets users sign in on their phones, select a user name and two games they want to play and then compete in the tournament.
+
+To start, first go to [server repo](https://github.com/jonahminihan/tourney-of-lights-server) and clone that. Run `npm i`, then `node index.js` to start it up!
+
+With the server started you can run `npm run dev` to start the tournemant server. The app will start on 3000! Currently, the IP address is hardcoded, so you'll need to go edit it in the app to have the app display and use the correct IP. Once you do that the intro sequence should play (hit replay if you missed it), and you should see this image:
+
+![alt text](/repo-images/Intro.png?raw=true)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
