@@ -22,65 +22,6 @@ function shuffle(array) {
 }
 
 const Bracket = ({ users }) => {
-  // const users = [
-  //   {
-  //     id: "asdf",
-  //     name: "Jonah",
-  //     code: "asdf",
-  //     game: "mario kart",
-  //     backupGame: "rock paper sissors",
-  //   },
-  //   {
-  //     id: "asdf2",
-  //     name: "Bridget",
-  //     code: "asdf",
-  //     game: "mario paper",
-  //     backupGame: "paper smashers",
-  //   },
-  //   {
-  //     id: "asdf3",
-  //     name: "Will",
-  //     code: "asdf",
-  //     game: "smash bros",
-  //     backupGame: "big sissors bros",
-  //   },
-  //   {
-  //     id: "asdf4",
-  //     name: "Edwin",
-  //     code: "asdf",
-  //     game: "water cup game",
-  //     backupGame: "woa luigi",
-  //   },
-  //   {
-  //     id: "asdf5",
-  //     name: "Rodney",
-  //     code: "asdf",
-  //     game: "mario kart",
-  //     backupGame: "rock paper sissors",
-  //   },
-  //   {
-  //     id: "asdf6",
-  //     name: "Liminey",
-  //     code: "asdf",
-  //     game: "mario paper",
-  //     backupGame: "paper smashers",
-  //   },
-  //   {
-  //     id: "asdf7",
-  //     name: "The Grinch",
-  //     code: "asdf",
-  //     game: "smash bros",
-  //     backupGame: "big sissors bros",
-  //   },
-  //   {
-  //     id: "asdf8",
-  //     name: "Santa",
-  //     code: "asdf",
-  //     game: "water cup game",
-  //     backupGame: "woa luigi",
-  //   },
-  // ];
-
   const [bracket, setBracket] = useState(null);
   const [backupGames, setBackupGames] = useState([]);
   const [winner, setWinner] = useState(null);
@@ -293,7 +234,7 @@ const Bracket = ({ users }) => {
           <div className="w-screen h-screen absolute top-0 left-0 flex justify-center items-center">
             <div className="w-96 h-96 bg-slate-600 rounded flex justify-center items-center">
               <h1 className="text-4xl text-center p-10">
-                Congrats you assholes, you let {winner.name} win!!
+                Congrats you losers, you let {winner.name} win!!
               </h1>
             </div>
           </div>
