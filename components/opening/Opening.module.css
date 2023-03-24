@@ -3,6 +3,11 @@
     font-family: 'IBM Plex Sans', sans-serif !important;
 }
 
+.gototext {
+    font-size: 30px;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
 .welcome {
     animation-name: welcome;
     animation-duration: 2s;
@@ -19,6 +24,13 @@
 .tourney {
     animation-delay: 4s;
     animation-name: tourneyFrames;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.tourneyGotoText {
+    animation-delay: 10s;
+    animation-name: tourneyGotoFrames;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
@@ -57,6 +69,15 @@
     }
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes tourneyGotoFrames {
+    0%   {        
+        transform: translateY(2.5rem);
+    }
+    100% {
+        transform: translateY(0px);
     }
 }
 
